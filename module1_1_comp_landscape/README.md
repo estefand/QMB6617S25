@@ -216,10 +216,48 @@ Team Influence and Respect
 
 ### The tech: A legacy stack that's starting to change
 
+Technology at HandbagLOVE
+- Common phrase: "Well, that’s how it’s always been. "
+- Order and customer data stored in Oracle database for 20 years.
+- System has many modifications and is pushed beyond its limits but still functions.
 
+Data Collection and Storage
+- Additional data collected from website, customer care calls, and marketing emails.
+- All data stored on-premises, not in the cloud.
+- IT team responsible for system maintenance.
+
+Data Management
+- Central database allows freedom to connect and analyze data.
+- Queries can be slow and may overload the system, but workarounds exist.
+- Most analyses performed on personal laptops.
+- Difficulty in accessing powerful computers for model training.
+
+Machine Learning
+- Company lacks a machine learning tech stack.
+- No in-house machine learning capabilities.
 
 ### The pros and cons of HandbagLOVE
 
+Company Dynamics
+- HandbagLOVE offers significant influence and responsibility for data scientists.
+- Employees can propose, build, and implement ideas with minimal persuasion needed.
+- The company size and the newness of data science contribute to this empowering environment.
+- Limited support from colleagues means individuals must solve problems independently.
+
+Technology Challenges
+- The tech stack is outdated, leading to time-consuming workarounds.
+- Lack of technical support prevents the adoption of newer technologies.
+- If new technologies cannot be set up independently, employees must manage with existing tools.
+
+Salary Expectations
+- Data scientist salaries at HandbagLOVE are lower compared to larger tech companies.
+- Limited budget means the company cannot offer high paychecks.
+- Salaries are above average for similar roles within the company.
+
+Work Environment
+- Ideal for data scientists who prefer freedom and standard statistical methods.
+- Basic skills are sufficient; advanced machine learning expertise may not be utilized.
+- Those seeking cutting-edge projects or colleagues with advanced knowledge may not find a fit.
 
 
 ## Seg-Metra: The early-stage startup
