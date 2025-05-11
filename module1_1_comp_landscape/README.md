@@ -166,10 +166,53 @@ Suitability for Decision-Makers
 
 <img src="Images/HandbagLOVE_logo.png" width="500"/>
 
+Company Overview
+- HandbagLOVE is a retail chain with 250 locations in the U. S.
+- Specializes in selling purses and clutches.
+- Known for expertise in store layout and customer experience.
+
+Technology Adoption
+- Slow to adopt new technology.
+- Took time to establish its first website and app.
+
+Sales Decline
+- Recent sales drop due to competition from Amazon and online retailers.
+- Acknowledgment of the need for technological improvement.
+
+Recent Initiatives
+- Investing in an online app and an Amazon Alexa skill.
+- Utilizing data for better insights.
+
+Data Science Team Development
+- New data science team formed from existing financial analysts.
+- Supplemented by trained data scientists for more advanced insights.
+- Implements sophisticated products like monthly forecasts and interactive dashboards.
+- Developed customer segmentation for marketing purposes.
+
+Machine Learning Efforts
+- Created machine learning models for reports and analysis.
+- Still reliant on third-party machine learning products for recommendations.
+- Uncertainty about the timeline for developing internal machine learning capabilities.
 
 ### Your team: A small group struggling to grow
 
+Data Science Team Structure and Skills
+- Team focuses on data scientists who can do reporting
+- Members often self-teach modern statistical and machine learning methods
+- Self-learning leads to interesting techniques but may result in inefficiencies or inaccuracies
 
+Career Progression
+- HandbagLOVE provides general paths for data scientists to advance to senior roles
+- Career paths are not specific to data science; they are borrowed from other fields
+- Promotion depends on convincing managers and getting their approval
+- Growth of the team may allow members to quickly become seniors
+
+Team Influence and Respect
+- Data science team provides reports and models for various departments
+- Team is well-known and respected within the company
+- High camaraderie among team members
+- Data scientists have more influence compared to similar positions in other companies
+- Team members often meet and converse with top-level executives
 
 ### The tech: A legacy stack that's starting to change
 
