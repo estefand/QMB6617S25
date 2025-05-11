@@ -36,7 +36,7 @@ After completing this course, the student is expected to be able to:
 
 -	Manage the technical implications of working within a complex ecosystem of analytics, including the pipeline from model-building to production, 
 
-•	Specify a system of procedures to ensure the security of data and model assets, and
+-	Specify a system of procedures to ensure the security of data and model assets, and
 
 -	Understand the broader strategic considerations of managing a portfolio of analytical projects, including the interactions among large teams and between various processes, as well as matters of ethics and privacy in the handling of data.  
 
@@ -50,22 +50,22 @@ Admission to the Business Analytics Track of the Professional MBA (PMBA) program
 ## Textbooks
 
 
-<img src="Images/MMLP_Book_Cover.png" width="200"/>
+<img src="Images/MMLP_Book_Cover.webp" width="200"/>
 
 *Managing Machine Learning Projects*, by Simon Thompson. Manning Publications Co.: Shelter Island, NY, 2023 (ISBN: 978-1633439023).
 
 
-<img src="Images/BCDS_Book_Cover.png" width="200"/>
+<img src="Images/BCDS_Book_Cover.jpg" width="200"/>
 
 *Build a Career in Data Science*, by Emily Robinson and Jacqueline Nolis. Manning Publications Co.: Shelter Island, NY, 2020 (ISBN-13: 978-1617296246, ISBN-10: 1617296244).
 
 
-<img src="Images/HLDS_Book_Cover.png" width="200"/>
+<img src="Images/HLDS_Book_Cover.webp" width="200"/>
 
 *How to Lead in Data Science*, by Jike Chong and Yue Cathy Chang. Manning Publications Co.: Shelter Island, NY, 2021 (ISBN: 978-1617298899).
 
 
-<img src="Images/DG_Book_Cover.png" width="200"/>
+<img src="Images/DG_Book_Cover.jfif" width="200"/>
 
 *Data Governance: The Definitive Guide*, by Eryurek, Gilad, Lakshmanan, Kibunguchy-Grant, and Ashdown. O’Reilly Media, Inc.: Sebastopol, CA, 2021 (ISBN: 978-1-492-06349-0).
 
