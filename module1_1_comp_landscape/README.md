@@ -1,5 +1,5 @@
 
-<img src="Images/BCDS_Book_Cover.jpg" width="200"/>
+<img src="../Images/BCDS_Book_Cover.jpg" width="200"/>
 
 # Chapter 2: Data Science Companies
 
