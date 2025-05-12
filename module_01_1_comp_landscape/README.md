@@ -382,12 +382,6 @@ Company Overview: Videory
 - Centralized data science model where all report to a data science manager.
 - Central team assists other groups while setting its own priorities.
 
-Gustavo Coelho's Experience
-- Works at a small startup focusing on AI for HR management.
-- Predicts candidate performance and hiring likelihood to speed up processes.
-- Emphasizes bias mitigation in AI models.
-- Team consists of 11 people, with 5 in data science.
-
 Role and Learning Opportunities
 - Startup environment fosters daily learning and application of new concepts.
 - Focus on setting up scalable data science processes to empower team.
