@@ -23,7 +23,7 @@ Core Skills of Data Science
 - Skills can be mixed and matched for various data science jobs
 - Each area serves a different purpose and delivers unique outcomes
 
-<img src="Images/BCDS_Skills.png" width="500"/>
+<img src="Images/BCDS_Skills.png" width="750"/>
 
 
 Job Search Insights
@@ -199,7 +199,7 @@ The Data Science Venn Diagram:
 - It highlights three essential skills for success in data science.
 
 
-<img src="Images/HLDS_Venn.png" width="500"/>
+<img src="Images/HLDS_Venn.png" width="750"/>
 
 
 Three Pillars of Data Science Skills:
@@ -286,7 +286,7 @@ Centralized Teams and Career Clarity
 - In centralized teams, career progression may still be unclear without moving into management roles.
 - The distinction in career stages is based on the scope of influence and positive organizational impact.
 
-<img src="Images/HLDS_Career_Paths.png" width="500"/>
+<img src="Images/HLDS_Career_Paths.png" width="750"/>
 
 As of 2021, very few companies have established a formal DS career track, let alone
 a DS individual contributor career development track.

@@ -559,7 +559,7 @@ to these companies in various ways. As you go through job applications and inter
 it can be helpful to try to understand the strengths and weaknesses of working
 at these companies (table 2.1).
 
-<img src="Images/BCDS_Tab_2_1.png" width="500"/>
+<img src="Images/BCDS_Tab_2_1.png" width="750"/>
 
 
 
