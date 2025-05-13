@@ -23,6 +23,9 @@ Core Skills of Data Science
 - Skills can be mixed and matched for various data science jobs
 - Each area serves a different purpose and delivers unique outcomes
 
+<img src="Images/BCDS_Skills.png" width="500"/>
+
+
 Job Search Insights
 - Focus on job descriptions over titles when looking for data science jobs
 - Pay attention to interview questions
