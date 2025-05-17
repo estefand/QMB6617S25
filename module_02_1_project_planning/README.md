@@ -839,41 +839,401 @@ This chapter covers
 underway 
 -	Completing your pre-sales checklist
 
+Chapter 2 Summary
 
+Pre-project work overview
+- Covered the first half of the necessary preparations for the project
+
+Setting up tools and infrastructure
+- Established required tools and infrastructure for project tasks
+
+Gathering project requirements
+- Focused on ML-specific issues relevant to the project
+- Examined the project dataset to assess accessibility
+
+Data-specific issues
+- Documented security and privacy concerns
+- Identified key ethical and social concerns related to the project
+
+Synthesizing requirements
+- Requirements need to be summarized into a statement
+- Statement should outline:
+- Project intent
+- Problems associated with the intent
+- Estimated costs
+
+Decision-making
+- Organizations and clients can use this information for project decisions
 
 ## Build a project hypothesis
 
+The project hypothesis states the purpose of the project and the major challenges to
+overcome. Continuing from the pre-sales backlog in chapter 2, let's look at ticket PS10.
+This is the work that needs to be done to understand the problem that is at the core of
+the project.
+
+<img src="Images/MMLP_PS10.png" width="500"/>
+
+Challenges in Articulating ML Projects
+- ML goals are often unclear or unrealistic from the business perspective
+- Understanding specific ML algorithms is crucial to solving problems
+- Importance of documenting:
+- Challenges and benefits from shareholders
+- Data, system architecture, and nonfunctional constraints
+- Potential outcomes based on existing knowledge
+- Feedback to build project consensus among stakeholders
+
+Gaps in Understanding of ML Projects
+- There is a misconception that ML is a "magic box" that automatically solves problems
+- Stakeholder buy-in can be difficult for realistic projects
+- Complexity and diversity of ML can hinder mainstream understanding
+- Even widely used tools like Excel still require statistical expertise for meaningful analysis
+
+Identifying and Articulating Concepts
+- Teams need to create compelling concepts from available data to deliver business value
+- Justify investments by highlighting sufficient value in the proposed project
+- Use past work to brief collaborators and potential team members
+
+Requirements to Capture
+- Functional Requirements:
+- Processes the system must execute
+- Example: Inputs (user profile, budget, date) lead to outputs (book recommendations)
+- Nonfunctional Requirements:
+- Constraints on functional requirements
+- Example: Recommendations must cost less than $0. 0001 and be produced in under 200ms
+
+Requirements Analysis
+- Analysis should produce a list of challenges and business opportunities
+- Validate feasibility of improvements based on data and project findings
+
+Developing Viable Concepts
+- Expand on detailed descriptions for viable concepts
+- Agile projects utilize:
+- Systems stories: How the concept will be delivered
+- User stories: Who will use and be impacted by the project
+- Validation focuses on the viability of implementation paths and mechanisms for business impact
+
+Writing User Stories
+- Identify key functionalities and requirements
+- Define acceptance criteria for the project
+- Avoid potential problems and harms
+- Identify corner cases that could render the system irrelevant
+
+Stakeholder Involvement in User Stories
+- Develop user stories for various stakeholders:
+- Business sponsors
+- Employees/users
+- Customers/affected persons
+- Cover three situations:
+- First-time use
+- Normal use
+- When the system ceases to be used
+
+Identifying the ML Model
+- Determine the type of model to be built
+- Identify data needed for model creation and runtime
+- Describe what the model does for stakeholders to reveal their varying needs and requirements
+
+<img src="Images/MMLP_PS11.png" width="500"/>
+
+Framing the Project Concept
+
+- Frame the concept as a hypothesis and investigation:
+- Hypothesis example: Test if data from Table XYZ can model customer churn.
+- Investigation example: Explore how this model can be integrated into business operations.
+
+Actions to Take
+
+- Focus on key actions:
+- Test
+- Create
+- Model
+- Investigate
+- Use
+
+Qualifying Concepts
+
+- Check for technical feasibility:
+- Assess risk, novelty, and difficulty for the team.
+- Identify any new aspects that could pose risks.
+- Evaluate if customer infrastructure can meet nonfunctional requirements.
+
+- Consider a plausible business case:
+- Understand potential savings, revenue gains, and quality improvements.
+- Assist the customer in developing a detailed funding case.
+
+- Evaluate commercial feasibility:
+- Ensure funding is available to cover the entire project.
+- A great project idea needs financial backing to proceed.
+
+Additional Considerations
+
+- Identify which customer strategic priorities are addressed.
+- Determine if data resources meet project requirements.
+- Ensure customers can effectively utilize the outcomes.
 
 
 ## Create an estimate
 
+It’s great to have a clear project definition, but unless that definition can be turned
+into an estimate, it’s about as useful as a teapot made of wax. Tickets PS12, PS13, and
+PS14 define tasks that help us move from definition to estimate.
+
+<img src="Images/MMLP_PS12.png" width="500"/>
+
+<img src="Images/MMLP_PS13.png" width="500"/>
+
+<img src="Images/MMLP_PS14.png" width="500"/>
+
+You now have an outline of the project concept, some data about how a top-level system
+design would look, and you've systematically reviewed it to ensure that there are
+no known legal or ethical constraints. You've documented these things, and so the
+next task is to transform this outline into a project description that captures what will
+need to be done, by whom, and when to deliver. The fact is that your team will adapt
+to the realities of the project as it unfolds. What you are creating here is a credible
+envelop of resources and money to work with to get a viable result.
 
 
 ###  Time and effort estimates
 
+Estimating Time and Cost
+- No estimate has been produced from the prep and investigation done so far.
+- Two actions to take:
+- Use backlog lists for each chapter as a starting point for creating a task list.
+- Involve the team members who will do the work in building the estimate to ensure ownership.
+
+Team Collaboration on Estimates
+- Challenge team members to detail the work needed for all tasks.
+- Highlight the importance of time for mechanical and administrative tasks, in addition to technical work.
+- Understand nonfunctional challenges and communicate these while estimating efforts.
+- User interfaces for many users are harder and more costly than those for fewer users.
+
+Requirements Assessment
+- Capture specific material requirements needed for the project.
+- Assess compute consumption needs.
+- Identify any special hardware requirements for developers.
+- Ensure all costs for model training and data processing are accounted for.
+- Be aware of high costs for GPU usage and cloud data transfers.
+
+Creating a Task List
+- Create a project backlog subject to ongoing updates as the project evolves.
+- Estimate effort for backlog items using t-shirt sizing (small, medium, large, XL).
+- Team consensus typically leads to a clear overall project scale.
+
+Using T-Shirt Sizing
+- Two applications of t-shirt sizing:
+- Group tasks and ask the team for estimates in person-days for each size category.
+- Record actual time taken for tasks to measure reliability of initial estimates.
+
+Next Steps
+- With an overview of tasks and their scale, consider who will complete the work.
 
 ### Team design for ML projects
 
+ML Project Cost and Team Design
+- Team represents the largest part of the project cost
+- Understanding team design is critical for cost estimation
+- Rare projects may have substantial costs, but typical costs are mainly team time
+
+Resource Allocation
+- Systematic approach needed for resource allocation from the project roadmap
+- Every task should have an allocated resource covering the challenge scale
+- Break project into tasks and estimate individually for more accuracy
+- Involve team members and senior resources in the estimation process
+- Identify the type of person needed for each task and the time required
+
+Specialist Roles in ML Projects
+- Four specialist roles identified from the complexity drivers in ML projects
+- Complexity arises from challenges in data, modeling, and domain alignment
 
 <img src="Images/MMLP_Team_Roles.png" width="500"/>
 
 
+Roles in Machine Learning Projects
 
+Business Translators
+- Act as a bridge between business analysts, software engineers, and ML specialists.
+- Help address the disconnect between ML teams and real-world applications.
+- Important for gathering and developing insights, especially when product owner is unavailable.
+
+Data Engineers
+- Experts in managing and manipulating data resources.
+- Provide knowledge about technology, efficiency, and security.
+- Serve to help teams understand complex data, often relying on business translators for contextual understanding.
+
+Machine Learning Engineers
+- Responsible for developing and managing ML models and infrastructure.
+- Set up testing systems and track model performance.
+- Integrate models with business applications to maximize effectiveness.
+
+Data Scientists
+- Focus on creating, conditioning, and evaluating models for effectiveness.
+- Central role in understanding data needs for machine learning projects.
+
+Other Relevant Roles
+
+Software Engineers
+- Develop reliable software and work in teams; should not be mistaken for individual programmers.
+
+DevOps Engineers
+- Manage software development infrastructure, can sometimes fulfill ML engineer duties.
+
+Cloud Engineers
+- Set up and manage cloud environments and services; can assist data scientists when data engineers are unavailable.
+
+Delivery Managers
+- Organize project logistics, manage documentation, and facilitate communication between stakeholders.
+
+UX Engineers
+- Design user interfaces by understanding user needs and interactions.
+
+Test and QA Engineers
+- Develop and execute testing systems for project quality assurance and model performance evaluation.
+
+General Team Dynamics
+- Team roles can be shared among members; flexibility in skill distribution is common.
+- Some organizations may define roles such as data engineers differently based on project needs.
+
+Tips for Team Management
+- Focus on identifying fundamental project needs first to allocate team roles effectively.
+- Prioritize team members who can share insights and mentor others.
+- Seek generalists who can adapt their skills across diverse project areas, rather than only specialists.
+- Foster opportunities for team members to gain skills for future value and productivity.
+- Beware of overloading the team with development opportunities which may affect productivity.
+
+
+
+Figure 3.3 shows how a team might evolve over a project as skill requirements change,
+new team members join, and folks who have made their contribution leave. For example,
+a short assignment for a cloud engineer in sprint 1 (figure 3.3) might be problematic.
+The engineer might resent being dropped into the project to clear up a few issues,
+or they might enjoy the quick assignment between longer-term jobs.
 
 <img src="Images/MMLP_Team_Evolution.png" width="500"/>
 
+HCI Engineer's Role in Project Sprints
+- HCI (Human-computer interaction) engineer is depicted in sprint 3.
+- A two-week assignment allows the HCI engineer to add value to a showcase project.
+- Issues may arise if the HCI engineer lacks project context.
+
+Team Orientation and Preparation
+- Hold pre-project team orientation meetings.
+- Clarify individual expectations and team dynamics.
+- Ensure resources will be available when needed.
+- Form an agile team for each project sprint.
+
+Team Stability and Dynamics
+- A large core team should remain stable through the project.
+- Some individuals may join or leave for expertise.
+
+Task Management Process
+1. Create a task list based on backlogs and team input.
+2. Identify required roles and specializations for each task.
+3. Estimate the effort needed for each task.
+4. Aggregate effort to determine commitment per role.
+5. Develop a role-resourcing plan matching required effort.
+6. Identify a potential team design aligning with the plan.
+7. Calculate overall project cost based on commitment costs.
+
+Client Support and Involvement
+- Client support is crucial for project success.
+- Identify the product owner from the client who provides feedback.
+- Have a technical/admin troubleshooter to help with administrative issues.
+
+Addressing Potential Conflicts
+- Be aware of team members' potential conflicts (e. g. , holidays, retirement).
+
+Project Roadmap Review
+- Review the complete task list and project roadmap.
+- Look for optimizations or problems in task execution.
+- Run tasks in parallel where possible for efficiency.
+
+Identifying Risks in an Agile Project
+- Expect unknown problems and glitches to arise during the project.
+- Try to anticipate potential pitfalls early on.
 
 ###  Project risks
 
+Reviewing the Risk Register
+
+- Create an estimate for resources.
+- Review the risk register after estimation.
+
+Mitigating Risks
+
+- Consider the cost of mitigating risks in the budget.
+- Identify potential mitigations or workarounds.
+- Use previously successful mitigations for higher value; new mitigations have lower value.
+- Estimate the cost of mitigation:
+- Low-confidence estimates should include a 100% risk premium.
+- High-confidence estimates should include a 30% premium.
+- Mitigation costs should be chargeable items, not internal costs.
+- Include a risk premium and operational margin.
+
+Budget Approval and Documentation
+
+- Review to ensure no high-impact risks have low-value mitigations.
+- An organizational officer must sign off on the budget and accepted risks.
+- Ensure the officer understands potential risks.
+- Document the process and share it with those who sign off.
+- Send follow-up emails after sign-off meetings, including briefings.
+
+Handling Unmanageable Risks
+
+- Some risks may be unmanageable, particularly relating to data quality and availability.
+- Data in poor condition can hinder model development.
+- If data inspection is inadequate, further discovery must be done.
+- Frame such projects as experiments or investigations.
+- Contract terms should legally cover risk issues; maintain clear communication with the customer.
 
 ## Pre-sales/pre-project administration
 
+<img src="Images/MMLP_PS15.png" width="500"/>
+
+Contracts Required for Projects
+- Formal contracts are sometimes necessary for projects.
+- Types of contracts include:
+- Master Service Agreement (MSA):
+- Covers payment and liability mechanisms.
+- Governs the entire relationship with the customer.
+- Often applies to multiple projects.
+- Statement of Work:
+- Defines project efforts and activities.
+- Legal agreement on deliverables.
+- Specifies reimbursement details and timing.
+- Nondisclosure Agreements (NDAs), confidentiality, and intellectual property agreements:
+- Dependent on the MSA and jurisdiction.
+
+Legal Involvement
+- Development of contracts should be handled by legally qualified individuals.
+- Avoid creating documents yourself or solely following customer suggestions.
+- Involving the legal team early helps improve project outcomes and saves time.
+- Legal teams may introduce necessary requirements that can delay work, but these are important.
+
+Project Readiness
+- Ensure that agreements are well-founded and properly signed (often requires signatures from regional CTO and COO).
+- Agreement approval by the customer is essential before starting the project.
+- Utilize a checklist to verify that all elements are included before obtaining signatures.
 
 ## Pre-project/pre-sales checklist
 
+Having worked through the items previously listed and described, you should be in a
+position to complete the pre-project/pre-sales checklist that follows. This list (table
+3.1) lets you check each of the items to verify that there is adequate evidence that the
+task is properly completed.
 
 
+<img src="Images/MMLP_PS_15_Checklist.png" width="500"/>
 
+
+Go through this checklist with your team and make sure that they and you agree that
+the items are complete. One trick is to not chair this meeting yourself, but instead, get a
+relatively junior person from the team to host it. (Probably not the most junior as that's
+a bit unfair, but someone who the team respects and will benefit from the experience
+of running some meetings.) By getting them to set up the meeting and run it, you avoid
+the trap of everyone thinking that they should just agree. From your perspective, you
+want to know if something has been overlooked, now, before it's too late and while you
+can still (hopefully) fix things.
 
 
 ## Summary
