@@ -162,7 +162,7 @@ underway
 <img src="Images/MMLP_Team_Evolution.png" width="500"/>
 
 
-###  Project risks
+##  Project risks
 
 
 ## Pre-sales/pre-project administration
@@ -172,7 +172,7 @@ underway
 
 
 
-
+## Pre-project postscript
 
 
 ## Summary
