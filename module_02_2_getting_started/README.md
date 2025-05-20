@@ -21,6 +21,148 @@ permissions
 putting mitigations in place if needed
 
 
+## Sprint 0 backlog
+
+<img src="Images/MMLP_Backlog.png" width="500"/>
+
+
+## Finalize team design and resourcing
+
+<img src="Images/MMLP_Setup_1_Team.png" width="500"/>
+
+
+## A way of working
+
+
+<img src="Images/MMLP_Setup_2_Team.png" width="500"/>
+
+
+
+### Process and structure
+
+
+
+
+### Heartbeat and communication plan
+
+
+### Tooling
+
+Establish a clear agreement with all team members and with the customer about preferred tools. Often, the project's customer will mandate these. The following lists some 
+of these tools:
+-	Document repository (SharePoint, Confluence, Microsoft Teams, etc.)
+-	Work ticketing system (Jira, GitLab, Azure DevOps Services)
+-	Source code control (GitHub, Bitbucket, Subversion)
+-	Document production (Microsoft Office 365, Google Docs, Open Office)
+-	Technical diagram production (Visio, Lucidchart)
+-	Build management system (Gradle, Jenkins)
+-	Dependency management system (Conda, Python's pip)
+-	Testing (Python’s pytest, JUnit)
+
+
+
+
+
+#### Data pipelining
+
+<img src="Images/MMLP_DAG.png" width="500"/>
+
+
+
+#### Versioning
+
+
+
+#### Data testing
+
+
+
+### Standards and practices
+
+
+
+### Documentation
+
+
+
+
+## Infrastructure plan
+
+
+<img src="Images/MMLP_Setup_3_Infrastructure.png" width="500"/>
+
+
+### System access
+
+
+### Technical infrastructure evaluation
+
+
+
+
+## The data story
+
+
+<img src="Images/MMLP_Setup_4_Data.png" width="500"/>
+
+
+
+"To consult the statistician after an experiment is finished is often merely to ask him to 
+conduct a post-mortem examination. He can perhaps say what the experiment died of." 
+
+-- R.A. Fisher, Presidential Address to the 
+First Indian Statistical Congress, 1938
+
+
+
+
+
+
+Even so, there are (at least) four ways that the 
+story of the data you will use affects your ML models:
+-	Motivation and context: Why the data was collected.
+-	Collection: The mechanics of the data collection and the measurements made.
+-	Lineage: The process that has brought the data into its current form and storage.
+-	Events: What happened to the data
+
+
+### Data collection motivation
+
+
+###  Data collection mechanism
+
+
+###  Lineage
+
+
+###  Events
+
+
+## Privacy, security, and an ethics plan
+
+
+<img src="Images/MMLP_Setup_5_Ethics.png" width="500"/>
+
+
+
+## Project roadmap
+
+
+<img src="Images/MMLP_Setup_6_Roadmap.png" width="500"/>
+
+
+
+## Sprint 0 checklist
+
+You can complete the checklist in Table 4.2 with the delivery team to ensure that the 
+elements of sprint 0 are put in to place before the project starts. The objective of sprint 
+0 is to ensure that the conditions for the team to work effectively and efficiently are 
+met. Everyone involved in the checklist meeting should be invested in making sure 
+that every item is covered usefully.
+
+
+<img src="Images/MMLP_Setup_Checklist.png" width="500"/>
+
 
 
 ## Summary
