@@ -211,6 +211,14 @@ funding and gets the project ready to go. The first thing to undertake is PS1.
 
 <img src="Images/MMLP_PS1.png" width="500"/>
 
+This is an example of a project or task board that keeps track of 
+features of a project, from a backlog of ideas, to work in progress, 
+to finished work, ready for review and approval, and incorporation
+into a production system. 
+
+
+<img src="Images/agile-pm-kanban-board.png" width="500"/>
+
 
 
 ##  Project management infrastructure
@@ -219,6 +227,10 @@ PS2 and PS3 are the tickets that set up the project management infrastructure, b
 it into use. As such, they’re a good place to start. As a reminder, they're listed here.
 
 <img src="Images/MMLP_PS2.png" width="500"/>
+
+We all know what that is: GItHub is one such repository!
+You might also have a central place to store documentation relating to the project:
+data dictionaries, project requirements, and so on.  
 
 
 <img src="Images/MMLP_PS3.png" width="500"/>
@@ -1226,7 +1238,7 @@ task is properly completed.
 ## Pre-project postscript
 
 
-<img src="Images/MMLP_PS_15_Checklist.png" width="500"/>
+<img src="Images/MMLP_PS_Checklist.png" width="500"/>
 
 Go through this checklist with your team and make sure that they and you agree that
 the items are complete. One trick is to not chair this meeting yourself, but instead, get a
