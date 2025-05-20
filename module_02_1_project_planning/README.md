@@ -77,7 +77,7 @@ Waterfall Approach
 - Users found waterfall-developed software irrelevant to their needs due to a disconnect in the process.
 - Project managers struggled to estimate complexity and costs because of separation from implementation.
 
-<img src="Images/waterfall_steps.jpeg" width="500"/>
+<img src="Images/waterfall_steps.png" width="500"/>
 
 
 Disillusionment with Waterfall Approach
@@ -85,14 +85,14 @@ Disillusionment with Waterfall Approach
 - This prompted a reevaluation of waterfall to more iterative methodologies.
 - New approaches included Spiral methodology and V models.
 
-
-<img src="Images/coach-agile-mvp-coactiv.png" width="500"/>
-
-
 Shift to Agile Development
 - Agile development emerged as the most popular alternative.
 - Emphasizes early delivery of working software and customer collaboration.
 - Focuses on managing change and discovery effectively.
+
+
+<img src="Images/coach-agile-mvp-coactiv.png" width="500"/>
+
 
 Evolution of Agile: DevOps
 - DevOps aims to bridge developers and support teams.
