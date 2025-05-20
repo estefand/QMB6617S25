@@ -77,10 +77,17 @@ Waterfall Approach
 - Users found waterfall-developed software irrelevant to their needs due to a disconnect in the process.
 - Project managers struggled to estimate complexity and costs because of separation from implementation.
 
+<img src="Images/waterfall_steps.jpeg" width="500"/>
+
+
 Disillusionment with Waterfall Approach
 - High costs of structured waterfall methodologies and unclear value led to widespread disillusionment.
 - This prompted a reevaluation of waterfall to more iterative methodologies.
 - New approaches included Spiral methodology and V models.
+
+
+<img src="Images/coach-agile-mvp-coactiv.png" width="500"/>
+
 
 Shift to Agile Development
 - Agile development emerged as the most popular alternative.
