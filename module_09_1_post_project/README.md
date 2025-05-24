@@ -1,5 +1,5 @@
 
-# Post Project
+# Post-Project Review, Technical Debt, and Model Drift
 
 
 ## Introduction
@@ -7,7 +7,83 @@
 
 
 
+<img src="../Images/BCDS_Book_Cover.jpg" width="200"/>
+
+# Chapter 13: When Your Data Science Project Fails
+
+
+This chapter covers
+- Why data science projects tend to fail
+- What you can do when your project fails
+- How to handle the negative emotions from failure
+
+
+## Why data science projects fail
+
+
+
+
+### The data isn't what you wanted
+
+
+
+### The data doesn't have a signal
+
+
+
+### The customer didn't end up wanting it
+
+
+
+## Managing risk
+
+
+## What you can do when your projects fail
+
+
+
+### What to do with the project
+
+
+
+
+#### DOCUMENT LESSONS LEARNED
+
+
+
+#### CONSIDER PIVOTING THE PROJECT
+
+
+#### END THE PROJECT (CUT AND RUN)
+
+
+
+#### COMMUNICATE WITH YOUR STAKEHOLDERS
+
+
+
+### Handling negative emotions
+
+
+
+
+<img src="Images/BCDS_Architect_Treasure_Hunter.png" width="500"/>
+
+
+
+## Summary
+
+- Data science projects usually fail because of inadequate data, a lack of signal, or
+not being right for the customer.
+- After a project fails, catalog why and consider pivoting or ending it.
+- A project failure isn't a reflection on the quality of the data scientist.
+- A data scientist isn't solely responsible for a project failure.
+
+
 <img src="../Images/MMLP_Book_Cover.webp" width="200"/>
+
+# Chapter 10: Post Project
+
 
 This chapter covers
 -	Looking after an ML system after it's gone into 
