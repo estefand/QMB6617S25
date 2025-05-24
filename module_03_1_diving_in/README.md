@@ -17,7 +17,7 @@ set to the team
 pipelines robust
 
 
-<img src="../Images/MMLP_Book_Cover.webp" width="500"/>
+<img src="../Images/MMLP_Book_Cover.webp" width="200"/>
 
 
 ## Sprint 1 backlog

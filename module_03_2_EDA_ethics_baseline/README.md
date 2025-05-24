@@ -17,7 +17,7 @@ the potential for success
 of more sophisticated models
 
 
-<img src="../Images/MMLP_Book_Cover.webp" width="500"/>
+<img src="../Images/MMLP_Book_Cover.webp" width="200"/>
 
 
 ## Exploratory data analysis (EDA)
