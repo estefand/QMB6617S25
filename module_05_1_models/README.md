@@ -95,6 +95,14 @@ reject
 <img src="Images/MMLP_Test_Split_Age.png" width="500"/>
 
 
+
+<img src="Images/MMLP_Inductive_Bias.png" width="500"/>
+
+
+
+<img src="Images/MMLP_Image_Network.png" width="500"/>
+
+
 ### Multiple disjoint models
 
 
