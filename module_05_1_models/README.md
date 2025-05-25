@@ -8,6 +8,7 @@
 
 <img src="../Images/MMLP_Book_Cover.webp" width="200"/>
 
+# Chapter 7: Making Useful Models with Machine Learning
 
 This chapter covers
 -	Transforming data for processing 
