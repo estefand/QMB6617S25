@@ -2,7 +2,7 @@
 # Leading Projects
 
 
-<img src="Images/HLDS_Book_Cover.webp" width="200"/>
+<img src="../Images/HLDS_Book_Cover.webp" width="200"/>
 
 
 ## Introduction
@@ -10,16 +10,16 @@
 The text *How to Lead in Data Science*
 by Jike Chong and Yue Cathy Chang
 divides the features relevant to leaders in Data Science and Business Analytics 
-into 6 components that comprise what they call, the TEE-ERA Fan. 
+into 6 components that comprise what they call the TEE-ERA Fan. 
 
-<img src="Images/HLDS_TEE_ERA_Fan.png" width="500"/>
+<img src="Images/HLDS_TEE_ERA_Fan.png" width="750"/>
 
 This section compiled from two chapters in this book
 will guide effective leadership of an analytics project, 
 which is the first step up the chain of command in the analytics profession. 
 
 
-<img src="Images/HLDS_Book_Cover.webp" width="200"/>
+<img src="../Images/HLDS_Book_Cover.webp" width="200"/>
 
 
 # Chapter 2: Capabilities for Leading Projects
@@ -57,12 +57,12 @@ Practicing DS involves translating business needs into quantitative frameworks a
 optimization techniques, such that we can learn patterns from data and anticipate the
 future. Setting up a project to learn from data has many challenges involving the following three areas: 
 
-1 Framing the problem to maximize business impact
-2 Discovering patterns in data:
+1. Framing the problem to maximize business impact
+2. Discovering patterns in data:
   - Understanding data characteristics
   - Innovating in feature engineering
   - Clarifying the modeling strategy
-3 Setting expectations for success
+3. Setting expectations for success
 
 
 ### Framing the problem to maximize business impact
@@ -73,7 +73,7 @@ Framing the problem can be more important than identifying the data sources. A p
 *Text p.25*
 
 
-<img src="Images/HLDS_Fig_2_2_Levels.png" width="500"/>
+<img src="Images/HLDS_Fig_2_2_Levels.png" width="750"/>
 
 
 
@@ -85,7 +85,7 @@ Framing the problem can be more important than identifying the data sources. A p
 
 #### UNDERSTANDING DATA CHARACTERISTICS
 
-<img src="Images/HLDS_Fig_2_3_Data_Chars.png" width="500"/>
+<img src="Images/HLDS_Fig_2_3_Data_Chars.png" width="750"/>
 
 
 #### UNIT OF DECISIONING
@@ -106,13 +106,13 @@ Framing the problem can be more important than identifying the data sources. A p
 #### INNOVATIONS IN FEATURE ENGINEERING
 
 
-<img src="Images/HLDS_Fig_2_4_Feature_Techniques.png" width="500"/>
+<img src="Images/HLDS_Fig_2_4_Feature_Techniques.png" width="750"/>
 
 
 #### CLARIFYING MODELING STRATEGY
 
 
-<img src="Images/HLDS_Fig_2_5_SciKit_Algos.png" width="500"/>
+<img src="Images/HLDS_Fig_2_5_SciKit_Algos.png" width="750"/>
 
 
 
@@ -125,7 +125,7 @@ partners may not be satisfied.
 
 
 
-<img src="Images/HLDS_Fig_2_7_Model_Confidence.png" width="500"/>
+<img src="Images/HLDS_Fig_2_7_Model_Confidence.png" width="750"/>
 
 
 Success in recommendations is evaluated by lift, which maps to the incremental
@@ -184,14 +184,14 @@ business value?
 ### Planning and managing a DS project for success
 
 
-<img src="Images/HLDS_Fig_2_8_DS_Project_Types.png" width="500"/>
+<img src="Images/HLDS_Fig_2_8_DS_Project_Types.png" width="750"/>
 
 
-<img src="Images/HLDS_Tab_2_1_DS_Project_Types_1.png" width="500"/>
+<img src="Images/HLDS_Tab_2_1_DS_Project_Types_1.png" width="750"/>
 
 
 
-<img src="Images/HLDS_Tab_2_1_DS_Project_Types_2.png" width="500"/>
+<img src="Images/HLDS_Tab_2_1_DS_Project_Types_2.png" width="750"/>
 
 
 As a DS tech lead, there are many common failure modes for you to anticipate. Here
@@ -251,7 +251,7 @@ practice the art of craftsmanship.
 #### BALANCING SAFETY AND ACCOUNTABILITY
 
 
-<img src="Images/HLDS_Tab_2_2_Failure_Post_Mortem.png" width="500"/>
+<img src="Images/HLDS_Tab_2_2_Failure_Post_Mortem.png" width="750"/>
 
 
 
@@ -333,7 +333,7 @@ move to execute projects successfully. DS is also a team sport. External to the 
 
 
 
-<img src="Images/HLDS_Fig_2_9_DS_Maturity.png" width="500"/>
+<img src="Images/HLDS_Fig_2_9_DS_Maturity.png" width="750"/>
 
 *Text p. 64*
 
@@ -349,9 +349,9 @@ move to execute projects successfully. DS is also a team sport. External to the 
 
 
 
-<img src="Images/HLDS_Tab_2_3_DS_Self_Assessment_1.png" width="500"/>
+<img src="Images/HLDS_Tab_2_3_DS_Self_Assessment_1.png" width="750"/>
 
-<img src="Images/HLDS_Tab_2_3_DS_Self_Assessment_2.png" width="500"/>
+<img src="Images/HLDS_Tab_2_3_DS_Self_Assessment_2.png" width="750"/>
 
 
 ### Practicing with the CPR process
@@ -410,7 +410,7 @@ science practices. An internal ethical compass can help you call off an analysis
 
 
 
-<img src="Images/HLDS_Fig_3_1_Communication_Steps.png" width="500"/>
+<img src="Images/HLDS_Fig_3_1_Communication_Steps.png" width="750"/>
 
 
 #### DISCERNING THE CHANGES THAT REQUIRE ATTENTION
@@ -432,7 +432,7 @@ science practices. An internal ethical compass can help you call off an analysis
 
 
 
-<img src="Images/HLDS_Fig_3_2_Knowledge_Types.png" width="500"/>
+<img src="Images/HLDS_Fig_3_2_Knowledge_Types.png" width="750"/>
 
 
 As a tech lead, you are responsible for ensuring the learnings from the team are captured and disseminated as much as possible, so the team’s experience and 
@@ -465,7 +465,7 @@ you can uphold the following five standards of rigor in data scientist projects 
 
 
 
-<img src="Images/HLDS_Fig_3_3_AB_Tests.png" width="500"/>
+<img src="Images/HLDS_Fig_3_3_AB_Tests.png" width="750"/>
 
 
 #### SOUND STATISTICAL ANALYSIS
@@ -484,7 +484,7 @@ relies on a logical fallacy or is intellectually dishonest.” - Casadevall and 
 
 
 
-<img src="Images/HLDS_Tab_3_1_Base_Rate_Fallacy.png" width="500"/>
+<img src="Images/HLDS_Tab_3_1_Base_Rate_Fallacy.png" width="750"/>
 
 
 
@@ -542,11 +542,11 @@ grows. The team can come under significant pressure when something breaks unexpe
 It is crucial for you, the tech lead, to maintain a safe and respectful atmosphere in these stressful situations.
 
 
-<img src="Images/HLDS_Fig_3_5_Incident_Management.png" width="500"/>
+<img src="Images/HLDS_Fig_3_5_Incident_Management.png" width="750"/>
 
 
 
-<img src="Images/HLDS_Tab_3_8_Post_Mortem.png" width="500"/>
+<img src="Images/HLDS_Tab_3_8_Post_Mortem.png" width="750"/>
 
 
 
