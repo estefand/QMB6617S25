@@ -214,21 +214,21 @@ teams to coordinate and commit resources toward executing the company strategy.
 
 
  Here is a sample template of a project plan:
-1 Project motivation
+1. Project motivation
   - Background—Customers, challenges, and stakeholders
   - Strategic goal alignment—Company initiative it serves, its impact, and its value
-2 Problem definition
+2. Problem definition
   - Outputs and inputs specification
   - Metrics of project success
-3 Solution architecture
+3. Solution architecture
   - Technology choices
   - Feature engineering and modeling strategy
   - Configurations, tracking, and testing
-4 Execution timeline
+4. Execution timeline
   - Phases of execution
   - Synchronization cadence
   - A/B test scheduling
-5 Risks to anticipate
+5. Risks to anticipate
   - Data and technology risks
   - Organizational alignment risks
 
@@ -368,7 +368,7 @@ move to execute projects successfully. DS is also a team sport. External to the 
 
 
 
-<img src="Images/HLDS_Book_Cover.webp" width="200"/>
+<img src="../Images/HLDS_Book_Cover.webp" width="200"/>
 
 
 # Chapter 3: Virtues for Leading Projects
