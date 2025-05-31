@@ -42,11 +42,11 @@ Examples of Analyses
 - Analyses can vary in technical complexity, addressing specific one-time questions.
 
 
-<img src="Images/BCDS_Analysis_Example.png" width="500"/>
+<img src="Images/BCDS_Analysis_Example.png" width="750"/>
 
 
 
-Reporting versus Making an Analysis
+## Reporting versus Making an Analysis
 
 Reports and analyses are similar but distinct.
 
@@ -65,25 +65,25 @@ An analysis is a one-time project to answer specific questions.
 - "Analysis" is used to refer to both unless stated otherwise.
 
 
-Traits of a Good Analysis
+### Traits of a Good Analysis
 
-- Answers the Question
+Answers the Question
 - Provides a meaningful answer to the initial question.
 - Example: It should indicate which website leads to more sales.
 
-- Made Quickly
+Made Quickly
 - Should be completed in a timely manner, typically within a month.
 - Timeliness is crucial for influencing decisions with deadlines.
 
-- Can Be Shared
+Can Be Shared
 - Needs to be presented in an accessible format for others.
 - Formats like PowerPoint are preferred for clear communication.
 
-- Self-Contained
+Self-Contained
 - Must be understandable on its own without external references.
 - Includes clear descriptions, labeled axes, and well-documented explanations.
 
-- Can Be Revisited
+Can Be Revisited
 - Should be able to be reused for similar questions in the future.
 - Flexibility is necessary for changing input data or questions.
 
@@ -95,20 +95,20 @@ Steps of Analysis
 - Encouragement to follow steps to avoid mistakes commonly made by inexperienced data scientists.
 
 
-Analyses for Different Types of Data Scientists
+### Analyses for Different Types of Data Scientists
 
-- Decision Scientist
+Decision Scientist
 - Core function is making analyses.
 - Focus on answering questions with data.
 - Need to communicate findings clearly to the business.
 - Analysis serves as a key tool for communication.
 
-- Machine Learning Engineer
+Machine Learning Engineer
 - Primarily creates and deploys models.
 - Uses analyses to show model performance.
 - Demonstrates value in building new models and tracking changes over time.
 
-- Analyst
+Analyst
 - Concentrates on metrics and KPIs for the business.
 - Creates frequent reports, often using Excel, SQL, R, or Python.
 - Emphasizes maintainability due to the recurring nature of work.
@@ -140,7 +140,7 @@ Key Skills Required
 - Combination of experience with specific problems.
 - Understanding statistical methods and their potential business utility.
 
-<img src="Images/BCDS_Analysis_Process.png" width="500"/>
+<img src="Images/BCDS_Analysis_Process.png" width="750"/>
 
 Foundational Work for Data Science Analysis
 - Understand the business question before analyzing data.
@@ -204,7 +204,7 @@ Example Analysis Plan Structure
 - Subsections listing analysis questions.
 - Detailed tasks listed for execution.
 
-<img src="Images/BCDS_Analysis_Plan.png" width="500"/>
+<img src="Images/BCDS_Analysis_Plan.png" width="750"/>
 
 Analysis Plan Creation and Sharing
 - Share your analysis plan with your manager and the stakeholder.
@@ -256,7 +256,7 @@ Dual Mandate in Data Handling
 
 Dealing with Difficulties in Data Importing
 
-- Options when stuck on an issue:
+Options when stuck on an issue:
 1. Ask for help from a senior colleague.
 2. Avoid the problem entirely (e. g. , use a. csv file instead).
 3. Avoid prolonged self-troubleshooting.
@@ -315,7 +315,7 @@ Example Visualization
 - A bar plot (Figure 10. 4) illustrates overall customer count each month
 - Graph indicates a slight upward trend in customer count
 
-<img src="Images/BCDS_Summary_Table.png" width="500"/>
+<img src="Images/BCDS_Summary_Table.png" width="750"/>
 
 Visualization Choices
 - The type of visualization depends on the data available.
@@ -463,7 +463,7 @@ Polishing Work for Presentation
 - Avoid postponing sharing work for polishing; it usually increases overall workload.
 - Maintaining a consistent level of polish leads to a better end product.
 
-<img src="Images/BCDS_Visualization_Options.png" width="200"/>
+<img src="Images/BCDS_Visualization_Options.png" width="750"/>
 
 #### ONE-BUTTON RUN
 
