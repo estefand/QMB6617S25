@@ -998,29 +998,29 @@ Communication Strategy
 
 Examples of Changes
 
-- Metrics of Success:
+Metrics of Success:
 - Changes in project motivation may affect the engineering part.
 - A shift in metrics from short-term to long-term engagement may alter computation frequency and complexity.
 
-- Input Specifications:
+Input Specifications:
 - Changes may occur in data type, format, and frequency due to documentation errors or upgrades.
 - Important to communicate changes to avoid impacts on user experience, privacy, and compliance.
 
-- Output Specifications:
+Output Specifications:
 - Changes may arise in data type, format, accuracy, or frequency due to limitations or requirement changes.
 - Timely communication is crucial to manage downstream dependencies.
 
-- Technology Choices:
+Technology Choices:
 - Changes can result from system limitations, updates, or resource availability alterations.
 - Implications on output specifications must be clearly communicated.
 
-- Feature Stability or Strength:
+Feature Stability or Strength:
 - Changes may indicate underlying issues or market trends requiring prompt communication.
 
-- Resource Availability:
+Resource Availability:
 - Timely updates on changes can help partner teams adjust schedules and resource needs.
 
-- Scheduling Changes:
+Scheduling Changes:
 - Inform partners about internal or external scheduling changes to allow adjustments or reassess priorities.
 
 Importance of Timely Communication
