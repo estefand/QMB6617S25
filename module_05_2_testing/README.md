@@ -210,9 +210,10 @@ Monitoring and Feedback
 - User interviews provide valuable feedback on model performance.
 
 Advantages and Drawbacks of Field Trials
-- Advantages:
+
+Advantages:
 - Offer insights into a model's utility.
-- Drawbacks:
+Drawbacks:
 - Difficult to design effective trials.
 - Results may not apply to larger applications.
 - Field trials are costly and time-consuming, potentially delaying projects.
@@ -336,13 +337,14 @@ Key Nonfunctional Properties to Test
 - There is a shortage of documentation, methods, and benchmarks for measuring NFRs.
 
 Collected Nonfunctional Requirements
-- Latency: Time taken for the model to return results.
-- Throughput: Number of executions in a certain period.
+
+Latency: Time taken for the model to return results.
+Throughput: Number of executions in a certain period.
 - Cold start may slow first execution.
 - Parallel hardware can increase throughput despite individual model speed.
-- Memory footprint: Size of ML models affects deployment feasibility.
-- Cost: Use of licensed components can increase expenses.
-- Carbon impact: Some models have a significant carbon footprint.
+Memory footprint: Size of ML models affects deployment feasibility.
+Cost: Use of licensed components can increase expenses.
+Carbon impact: Some models have a significant carbon footprint.
 
 Evaluating Nonfunctional Properties
 - Memory footprint and cost are easier to evaluate.
@@ -446,26 +448,26 @@ Challenges with Population Differences
 
 ### Choosing with many tests
 
-- Influence of Measurement Aggregation
+Influence of Measurement Aggregation
 - Aggregating multiple measurements can affect selection decisions.
 - Different measures of performance may arise from the testing program.
 - Having separate test sets for hard-but-important (hbi) examples and standard data can lead to misleading overall performance.
 
-- Multi-Criteria Decision Making
+Multi-Criteria Decision Making
 - The problem of measuring performance is studied extensively in multi-criteria decision making.
 - Various approaches exist for aggregating diverse test results; no single method is the best for all cases.
 - Weighting functions can prioritize certain test results over others, allocating a percentage of the score accordingly.
 
-- Weighting Approach Example
+Weighting Approach Example
 - In an example, a 50/50 weight distribution could be used for hbi and run-of-the-mill (rotm) items.
 - Weighting hbi items as 1,000 times more significant than rotm items raises issues.
 - The chosen weighting can be arbitrary and difficult to justify afterward.
 
-- Complexity in Weighting
+Complexity in Weighting
 - More complex weighting methods can improve performance comparison but may complicate explanations.
 - Approaches vary in effectiveness and often introduce uncertainty into the decision-making process.
 
-- Alternative Method: Ranking Performance
+Alternative Method: Ranking Performance
 - An alternative approach is to rank performance instead of using raw outcomes.
 - Comparing models through rankings can produce clearer insights into performance.
 
