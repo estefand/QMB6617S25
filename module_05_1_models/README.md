@@ -246,21 +246,22 @@ Sprint 0 and Sprint 1 Overview
 - User stories communicated various forces affecting model design.
 
 Forces Affecting Model Design
-- Quantitative Performance:
+
+Quantitative Performance:
 - Important metrics include F1 score, precision, recall, sensitivity, and specificity.
-- Explanation/Transparency:
+Explanation/Transparency:
 - Best numerical performance doesn’t guarantee sufficient explanations or transparency for decisions.
-- Latency:
+Latency:
 - Classifier response time must suit the application (e. g. , real-time interactions vs. batch processing).
-- Cost:
+Cost:
 - High execution frequency of classifiers can lead to significant infrastructure costs.
-- Data Privacy/Security:
+Data Privacy/Security:
 - Classifier behavior may reveal confidential information.
-- Reuse and Data Sparsity:
+Reuse and Data Sparsity:
 - Limited data might require using prebuilt classifiers instead of training new ones.
-- Project Risk/Time to Develop:
+Project Risk/Time to Develop:
 - Building classifiers from scratch is risky; using pre-trained components may reduce risk but lower performance.
-- Robustness in Production:
+Robustness in Production:
 - Highly tuned solutions may fail under real-world conditions.
 
 Conclusion
