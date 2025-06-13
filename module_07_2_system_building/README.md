@@ -34,7 +34,7 @@ Sprint 3 Focus
 
 Production System Components
 - Process for deciding required components in the production system is discussed.
-- Later sections will address tradeoffs and decisions for:
+- Later sections will address trade-offs and decisions for:
 - Data layer selection and delivery.
 - Model-serving infrastructure.
 - Interface elements.
@@ -105,16 +105,17 @@ Usage of Models
 - Important to decide on the usage of created models.
 - Models have been selected for use after development.
 
-Types of Models
-- Assistive Models
+### Types of Models
+
+Assistive Models
 - Produce output directly for human use.
 - Example: Summarized data in a dashboard; recommendations from sensor readings.
 
-- Delegative Models
+Delegative Models
 - Create control signals without human input but under supervision.
 - Examples: Monitored chemical factories, fly-by-wire aircraft, autopilots.
 
-- Autonomous Models
+Autonomous Models
 - Operate without human control or monitoring for significant time.
 - Examples: Robots, drones, high-frequency trading systems.
 
@@ -123,6 +124,7 @@ Spectrum of Autonomy and Control
 - Higher autonomy means less human control, requiring more reliability and robust engineering.
 
 Design Forces with Increased Autonomy
+
 1. Need for Explanation
 - More autonomous systems need to explain decisions better than those under direct human control.
 
@@ -495,34 +497,34 @@ Development Guidelines for AI Systems
 
 Guidelines for System Instruments and Controls
 
-- G1: Make users aware of AI system management.
+G1: Make users aware of AI system management.
 - Use signage and web pages for communication.
 
-- G2: Share performance information from testing and validation.
+G2: Share performance information from testing and validation.
 - Explain results, highlighting carbon savings.
 
-- G3: Avoid drastic changes to temperature and lighting during work hours.
+G3: Avoid drastic changes to temperature and lighting during work hours.
 
-- G4: Provide environmental and power consumption data for specific areas.
+G4: Provide environmental and power consumption data for specific areas.
 
-- G5: Present environmental and power data in relatable ways.
+G5: Present environmental and power data in relatable ways.
 - Use comparisons to previous data and tangible benefits (e. g. , trees felled).
 
-- G6: Account for biological factors in system performance.
+G6: Account for biological factors in system performance.
 - Ensure user testing includes balanced gender representation.
 
-- G7: Establish a complaint management process.
+G7: Establish a complaint management process.
 - Inform users on whom to contact.
 
-- G8: Prepare for system failures.
+G8: Prepare for system failures.
 - Ensure managers and users know how to turn off the system if needed.
 
-- G9: Offer controls for managers to adjust the system.
+G9: Offer controls for managers to adjust the system.
 - Allow modifications based on user temperature complaints.
 
-- G10: Implement a fail-safe for returning to a steady temperature.
+G10: Implement a fail-safe for returning to a steady temperature.
 
-- G11: Record system activity and make logs accessible to users.
+G11: Record system activity and make logs accessible to users.
 - Provide a user-friendly way to inspect decision-making processes.
 
 User Feedback Mechanism
@@ -616,9 +618,9 @@ Governance Structure
 - Necessary materials must be available for understanding and managing models.
 - Governance system should identify system owners and link artifacts for auditing and support.
 - History of the production system must be documented, including:
-- Implementation, changes, and reviews of the system.
-- Records of problems and resolutions.
-- Timeline for withdrawal and deletion of the system and records.
+  - Implementation, changes, and reviews of the system.
+  - Records of problems and resolutions.
+  - Timeline for withdrawal and deletion of the system and records.
 
 Model Performance Monitoring
 - Model owners need to recognize when a model has failed.
@@ -691,13 +693,13 @@ Testing Requirements for Production System
 
 Types of Tests Required
 
-- Unit Tests:
+Unit Tests:
 - Localized tests by developers to prove code functionality
-- System Tests:
+System Tests:
 - Tests to confirm code performance; includes model and nonfunctional elements
-- Integration Tests:
+Integration Tests:
 - Tests to ensure different system models work together, e. g. , production database and feature extraction code
-- Acceptance Tests:
+Acceptance Tests:
 - Tests to verify system meets business and user purpose
 
 Current Testing Status
