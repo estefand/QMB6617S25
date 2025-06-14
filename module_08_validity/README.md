@@ -12,17 +12,33 @@ so these procedures are also useful to determine whether a model should be repla
 
 ### Statistical Methods
 
-This can be achieved by tracking a performance statistic, such as R-squared over time. 
-
+This can be achieved by tracking a performance statistic over time. 
+The performance statistic should measure the predictive value of the model. 
+Examples of statistics include R-squared but it could also be a less formal statistic
+tied to a business metric or KPI.
+These would calculate a measure of the difference between the expected and actual value.
+Statistics such as Mean Absolute Error (MAE), 
+or Mean Squared Error (MSE) or Root-Mean Squared Error (RMSE). 
+Sometimes the proportional difference is important, in which case 
+the Mean Absolute Proportional Error (MAPE) could be used.  
 
 ### Graphical Methods
 
-One could plot the statistical measure over time, or one could plot a lift chart, 
-to show the different outcomes that occur for different levels of prediction. 
+Whatever metric is calculated to indicate the quality of fit, 
+one could plot the statistical measure over time.
+to measure changes in the quality of predictions over time. 
 
-For example, plot the average outcome across predicted outcomes. 
-Perhaps the predicted outcomes could be sorted into bins before plotting
-the trend in line charts. 
+As an alternative, one could plot a lift chart, 
+to show the different outcomes that occur for different levels of prediction. 
+in some sense, this could be achieved by drawing a scatterplot
+of the outcome against the predicted value. 
+A relationship that is close to a 45-degree line is the ideal, 
+in which prediction equals actual. 
+
+Sometimes the effect will be difficult to detect, 
+so an alternative is to sort the predictions into bins, such as by quantiles, 
+and then plot average values for each. 
+Higher values of the outcome should be observed for higher values of the predictions. 
 
 
 ## Classification Models for Categorical Variables
@@ -34,7 +50,9 @@ The most common of which is a binary outcome: whether some event has happened or
 
 This can be achieved by tracking a performance statistic, 
 such as Area under the ROC curve over time. 
-
+Other metrics such as MAE or MSE could be used, 
+which would be calculated the same way as for continuous variables, 
+except that the target of the prediction is a proportion. 
 
 ### Graphical Methods
 
@@ -43,8 +61,10 @@ one could plot the statistical measure over time, or one could plot a lift chart
 to show the different outcomes that occur for different levels of predicted probabilities. 
 
 For example, plot the proportion of events across predicted probabilities. 
-Perhaps the predicted outcome probabilities could be sorted into bins before plotting
-the trend in line charts. 
+Unlike with continuous variables, the predicted outcome probabilities 
+should always be sorted into bins before plotting the trend in line charts. 
+otherwise, the observations will be clustered around zero and one (for binary events)
+and it will be difficult to discern any changes in predicted proportions. 
 
 
 
