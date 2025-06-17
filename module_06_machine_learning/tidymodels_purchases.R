@@ -46,22 +46,68 @@ rm(list=ls(all=TRUE))
 
 # Now, RStudio should know where your files are.
 
+################################################################################
+# Installing and Updating tidymodels Packages
+################################################################################
+
+# Note that we used tidymodels several semesters back, you might have an outdated versions
+# of the tidyverse packages, or an outdated version of R. 
+# This requires updating the packages, which might also require updating R. 
+
+# You might try running the code below first, to confirm that it works, before following
+# these steps to update R.
+
+# To update your version of R:
+# 1. You'll have to download a newer version of R. 
+# 2. Then restart RStudio.
+# 3. If the version of R is not the newest (see the version number in the console below, 
+#     beside the R logo), change the version of R (the engine for RStudio) to the newest. 
+# 4. Change the version of R by selecting Tools > Global Options, 
+# 5. Under R Sessions, click Change to select the most recent R version.
+
+# The following code should now work as planned.
+
+################################################################################
 
 
 # The tidymodels library is required.
 library(tidyverse)
 library(tidymodels)
+# If necessary, run
+# install.packages("tidyverse")
+# then
+# install.packages("tidymodels")
+# And then run the library command again.
+# 
+# You might have to install.packages the following:
+# install.packages("recipes")
+# install.packages("parsnip")
+# install.packages("workflows")
+# install.packages("broom")
+# To get updates.
+# Then load those libraries. 
+# library(recipes)
+# library(parsnip)
+# library(workflows)
+# library(broom)
+# And then run the library command again.
+# library(tidyverse)
+# library(tidymodels)
+
+# Then again, you might have an outdated version of R.
+# You'll have to download a newer version following the instructions above. 
 
 
-# The csv file used below must be in the working directory.
-# If you an error message, make sure that the file is
-# located in your working directory.
-# Also make sure that the name has not changed.
 
 
 ##################################################
 # Loading the Data
 ##################################################
+
+# The csv files used below must be in the working directory.
+# If you an error message, make sure that the file is
+# located in your working directory.
+# Also make sure that the name has not changed.
 
 applications <- read.csv('applications_full.csv')
 
@@ -101,6 +147,8 @@ purchases_full <- merge(purchases_full, demographic,
                         by.y = c('zip_code', 'year'))
 
 summary(purchases_full)
+
+summary(purchases_full[purchases_full[, 'log_odds_util'] == Inf, ])
 
 
 ##################################################
@@ -245,7 +293,7 @@ model_fit_lm_util %>%
 model_wflow_lm_log_odds <- 
   workflow() %>% 
   add_model(model_lm) %>% 
-  add_recipe(model_recipe_purch)
+  add_recipe(model_recipe_log_odds)
 
 # Fit the model to the training data.
 model_fit_lm_log_odds <- 
@@ -301,7 +349,7 @@ summary(purchases_full)
 #--------------------------------------------------
 
 # Join predictions and rename for this model.
-purchases_full <- model_fit_lm_util %>% 
+purchases_full <- model_fit_lm_log_odds %>% 
   predict(purchases_full) %>%
   bind_cols(purchases_full) %>%
   mutate(
@@ -327,7 +375,7 @@ purchases_full %>%
   summarize(
     MAE_purch = mean(abs(error_purch)), 
     MAE_util = mean(abs(error_purch_util)), 
-    MAE_log_odds = mean(abs(error_purch_log_odds))
+    # MAE_log_odds = mean(abs(error_purch_log_odds))
   )
 
 

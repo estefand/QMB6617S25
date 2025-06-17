@@ -51,19 +51,28 @@ rm(list=ls(all=TRUE))
 # The tidymodels library is required.
 library(tidyverse)
 library(tidymodels)
+# See the tidymodels_example.R script for prerequisites before running this script.
+
+
 # Other models for machine-learning models are also required.
+# You might have to install.packages the following:
+# install.packages("randomForest")
+# install.packages("XGBoost")
+# To get updates.
 library(randomForest)
+library(XGBoost)
+# These should install without incident, since they don't have so many dependencies.
 
-
-# The csv file used below must be in the working directory.
-# If you an error message, make sure that the file is
-# located in your working directory.
-# Also make sure that the name has not changed.
 
 
 ##################################################
 # Loading the Data
 ##################################################
+
+# The csv files used below must be in the working directory.
+# If you an error message, make sure that the file is
+# located in your working directory.
+# Also make sure that the name has not changed.
 
 applications <- read.csv('applications_full.csv')
 
@@ -353,7 +362,7 @@ purchases_full %>%
 
 
 #-------------------------------------------------
-# Fourth model predicts purchases using random forest.
+# Fourth model predicts purchases using gradient boosting.
 #-------------------------------------------------
 
 model_xgb <-
