@@ -374,25 +374,25 @@ delivered a system into production.
 
 Chapter 9 Summary: ML Model in Production
 
-- Main Process:
+Main Process:
 - Getting the ML model into a system and production.
 - Important activities include:
 - Building a monitoring, logging, and alerting system.
 - Establishing governance processes.
 
-- Current Trends:
+Current Trends:
 - ML teams are increasingly managing projects in production (shift left).
 - In this model, development teams take on more responsibilities traditionally held by support groups.
 - Reasons for this trend:
 - Smaller companies have limited funds for dedicated production teams.
 - Cloud computing reduces the need for in-house support teams.
 
-- Counterarguments:
+Counterarguments:
 - Concerns about ML teams managing production systems instead of developing new ones.
 - Specialist skills may be needed to maintain production ML systems.
 - Experience gained from maintaining systems can inform future developments.
 
-- Support Responsibilities:
+Support Responsibilities:
 - Supporting projects in production is often necessary for ML projects.
 - CIOs consider the potential for orphaned projects in the future.
 - Organizations may view project support as a routine part of the job.
@@ -729,7 +729,7 @@ succeed in the future.
 
 
 
-## Retrospectie Exercise
+## Retrospective Exercise
 
 Refer back to the retrospective exercise we did in *Assignment 2: Assessing Project Risks*.
 
@@ -800,7 +800,7 @@ by a departure of a team member.
 
 *Problem:* Not following rules or safety regulations, or existing policies over preventative measures.
 
-*Problem:* Not folowing or lack of awareness of legal requirements or approvals processes. 
+*Problem:* Not folowing or lack of awareness of legal requirements or approval processes. 
 
 
 
@@ -814,7 +814,7 @@ getting too deep into product or service development.
 
 2. Take preventative measures in anticipation of a problem. 
 Make back-up or contingency plans. 
-For this to work, you mist first spend some time thinking of the potential problems that could occur. 
+For this to work, you must first spend some time thinking of the potential problems that could occur. 
 
 3. Conduct testing of any new product or service, or any new application or technology.
 Consider whether there is a way to obtain more information in advance.
