@@ -726,3 +726,108 @@ the light of what's happening in the project.
 -	Develop your own point of view on the issues that this book has covered, then 
 share them with me and other people who will need your insight if they are to 
 succeed in the future. 
+
+
+
+## Retrospectie Exercise
+
+Refer back to the retrospective exercise we did in *Assignment 2: Assessing Project Risks*.
+
+### Instructions
+
+The Instructions were as follows:
+
+
+We have all been involved with or heard about projects will not have worked out as planned. 
+Think about some project that you have worked on or heard about, 
+either at your workplace or in the public arena, that did not quite go as planned. 
+The goal of this exercise is to reflect on some outcome in a way that leads you 
+to consider a potential risk that you might avoid in the future. 
+
+Answer the following questions at a level of detail that you can share, 
+after anonymizing the situation to a degree you feel comfortable, if necessary. 
+
+1. Describe the situation and the circumstances that led to a negative outcome. 
+2. What could someone have considered before the project was begun 
+3. that could have prevented the negative outcome?
+4. What stakeholder could have been consulted to bring to light the potential risk? 
+5. What changes would have been made if the risk were highlighted in advance?
+
+### Summary of Responses
+
+As I reviewed the responses, I was able to categorize most problems 
+with the following recurring themes.
+
+#### New Tool or Procedure
+
+*Problem:* Didn't consult users on intended usage or requirements. 
+
+
+#### New Product or Service
+
+*Problem:* Didn't consult users on intended usage or requirements. 
+
+
+#### Predictably Uncertain Problem
+
+*Problem:* Didn't take preventative measures for a problem that could have been anticipated. 
+
+
+#### Cost-Cutting Measure
+
+*Problem:* Cuts were too deep or done too hastily, so that
+valuable equipment was out of service or expertise was lost.
+
+
+#### Speed to Delivery
+
+*Problem:* In working toward a tight deadline, quick decisions were made 
+that missed some important factor or introduced some coordination problem. 
+
+
+#### Other Generic Problems
+
+*Problem:* Team didn't align on project goals, or the methodology or procedures to work toward those goals.
+
+*Problem:* Didn't anticipate public or community resistance to project over some external impact.
+
+*Problem:* Lack of awareness of regulatory hurdles that were later discovered.
+
+*Problem:* Lack of experience of a leader or key member of a team, which could have been caused
+by a departure of a team member. 
+
+*Problem:* Ran out of resources, possibly from poor financial management. 
+
+*Problem:* Not following rules or safety regulations, or existing policies over preventative measures.
+
+*Problem:* Not folowing or lack of awareness of legal requirements or approvals processes. 
+
+
+
+
+### Summary of Solutions
+
+The following lessons were learned to avoid similar problems in the future.
+
+1. Consult all stakeholders, including users, teammates or customers before
+getting too deep into product or service development.
+
+2. Take preventative measures in anticipation of a problem. 
+Make back-up or contingency plans. 
+For this to work, you mist first spend some time thinking of the potential problems that could occur. 
+
+3. Conduct testing of any new product or service, or any new application or technology.
+Consider whether there is a way to obtain more information in advance.
+Look for opportunities for a test market or group for an A/B test or a multi-armed bandit strategy,
+and take advantage of any flexibility for a partial roll-out. 
+
+4. Gather more information about the relevant markets.  
+For example, conduct surveys from potential clients, 
+or enlist the help of potential clients to provide feedback through a pilot experience. 
+
+5. Consult outside parties for input and guidance.
+Be sure to verify and follow all policies, rules and regulations, 
+including those from within the organization and from external parties.
+Consider even the reaction from community stakeholders or the general public. 
+
+
