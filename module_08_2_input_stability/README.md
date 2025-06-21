@@ -16,92 +16,31 @@ so these procedures are also useful to determine whether a model should be repla
 and, if so, what features and design components should be changed or excluded.
 
 
-## Parameter Stability
-
-This refers to the stability over time of the estimated parameters in a model.
-
-### Statistical Methods
-
-The statistical methods to detect parameter drift and ensure parameter stability
-are usually based on estimated parameters from a regression model. 
-
-#### Parameter Drift
-
-This can be achieved by tracking the parameters of a model over time.
-This might be achieved by estimating the model on the most recently observed sample. 
-One could estimate the model each period and compare that model
-against the original model being tested. 
-
-#### Excess Predictive Value
-
-A test for parameter stability could also be performed by running a regression model 
-with the prediction included as an explanatory variable, 
-along with other explanatory variables in the model, 
-and potentially other variables *not* in the model. 
-This would test whether some variables help to predict the outcome in excess of
-the predictive ability of the variables in the original model.
+Model monitoring comprises two sorts of analysis:
+one is an analysis of the changes in the estimates of parameters 
+in repeated estimations of a model, a phenomenon known as *parameter drift*
+or  *parameter stability*. 
+This will be discussed at length in a later module.
 
 
-If the original model is well specified, the only variable with explanatory power should be 
-prediction from the original model. 
-If the testing model shows that a variable that was *not* in the original model is 
-statistically significant, it shows that that variable helps to predict
-the outcome and could be added to the other predictors in a new model. 
-If the testing model shows that a variable in the original model is 
-statistically significant, it shows that this variable helps to predict beyond 
-the prediction from the original model. 
-This suggests that the model could be re-estimated with a new coefficient or 
-functional form (e.g. log transformation) on this variable.
+In this module, we will consider changes in the distribution of the inputs
+to a model. 
+This analysis of the distribution of explanatory variables is known as 
+*input stability*.
 
-When the variable has a *statistically significant positive* effect, 
-it indicates that the original model *underestimates* the effect of that variable
-when predicting the outcome.
-Conversely, when the variable has a *statistically significant negative* effect, 
-it indicates that the original model *overestimates* the effect of that variable
-when predicting the outcome.
-
-
-### Graphical Methods
-
-One could plot the estimated coefficients over time, which would reveal changes in
-the relationship between explanatory variables and the predicted value. 
-These can be plotted along with the standard errors for a model. 
-
-#### Parameter Drift
-
-This plot of parameters could be drawn for the parameters in a new regression model, 
-including all variables, to test the stability of relationships with variables 
-already in the model, as well as not included in the model. 
-For those variables already included in the model, 
-the estimated parameters should be compared against their coefficients 
-in the original model being tested. 
-
-#### Excess Predictive Value
-
-The interpretation is different when one runs a regression 
-to detect excess predictive value, while including 
-the predictions from the original model as an explanatory variable. 
-In this case, the variables that are already in the model should have
-zero excess predictive value beyond their role within the original model being tested.
-Thus, the series of estimated coefficients for excess prediction
-should be compared against the value of zero. 
-That is, simply tested for statistical significance.
-
-#### Nonparametric Models
-
-Some models do not use a parametric form, such as linear regression or logistic regression, 
-in which coefficients (i.e. parameters) are used in a formula to calculate the prediction. 
-Nonparametric models, such as kernel-smoothed models or machine-learning models 
-follow algorithms that do not explicitly calculate a prediction from a formula. 
-These tests might still be useful to detect changes in relationships
-over time. 
-In addition, for machine-learning models, one could plot the hyperparameters over time. 
-In either case, the time series of parameters should be compared with the estimated values 
-from the original model. 
 
 
 ## Input Stability
 
+The analysis of changes in the distribution of variables has long been studied by statisticians.
+Thus, the methods are commonly known in the statistical field. 
+Yet, these relatively simple procedures can alert analysts and engineers
+to changes in the population running through a model in production, 
+and explain any changes in performance. 
+If the population being scored by a model changes, 
+it may suggest an evolving relationship between the explanatory variables
+in a model and the outcome that is predicted, 
+potentially suggesting that the model be replaced.
 
 ### Statistical Methods
 
