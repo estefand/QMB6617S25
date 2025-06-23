@@ -170,7 +170,7 @@ dev.off()
 
 
 # Plot MAE.
-fig_file <- "Figures/MSE.png"
+fig_file <- "Figures/MAE.png"
 png(fig_file)
 
 plot(validity_stats[, 'year'], 
