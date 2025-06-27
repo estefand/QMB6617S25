@@ -61,7 +61,7 @@ variables by separating values into bins, like one does when drawing a histogram
 
 The calculation of the statistic is as follows.
 
-<img src="../Images/PearsonGOF.png" width="750"/>
+<img src="Images/PearsonGOF.png" width="750"/>
 
 The values of the inputs are the proportions of observations in each bin, 
 from the null distribution and the comparison distribution. 
@@ -83,7 +83,7 @@ which could be thought of as the degree of variation.
 The formal definition is as follows.
 
 
-<img src="../Images/KLDformula.png" width="750"/>
+<img src="Images/KLDformula.png" width="750"/>
 
 In this expression, x is the outcome variable, Q represents the probabilities
 under the null distribution and P represents the probabilities
