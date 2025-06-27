@@ -73,9 +73,9 @@ when the model is in use to make a decision.
 The statistic follows a Chi-squared distribution with degrees of freedom equal 
 to the number of bins minus one. 
 
-#### Kullback-Leibler Divergence Criterion
+#### Kullback-Leibler Divergence
 
-The theory for the Kullback-Leibler Divergence Criterion is more involved, 
+The theory for the Kullback-Leibler Divergence is more involved, 
 and the behavior of this statistic is less intuitive, but it is more powerful 
 in that it is more likely to detect certain types of changes in the distribution. 
 It is based on the concept of relative entropy of two phenomena, 
