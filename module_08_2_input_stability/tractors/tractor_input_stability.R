@@ -64,7 +64,7 @@ rm(list=ls(all=TRUE))
 ##################################################
 
 # First, read in the production data.
-tractor_prod <- read.csv('../module_07_2_model_validity/tractor_prod.csv')
+tractor_prod <- read.csv('../../module_07_2_model_validity/tractors/tractor_prod.csv')
 # Uses the same dataset as last week.
 
 summary(tractor_prod)
@@ -362,9 +362,9 @@ for (var_name in cat_var_names) {
   level_names <- levels(tractor_prod[, bin_var_name])
   num_bins <- length(level_names)
   
-  # 
+  # Select a subset of data for plotting figures.
   fig_data <- tractor_prod[, c('year', bin_var_name)]
-  colnames(fig_data) <- c('year', "bined_variable")
+  colnames(fig_data) <- c('year', "binned_variable")
   
   
   
@@ -374,15 +374,15 @@ for (var_name in cat_var_names) {
   png(fig_file)
   
   distn_plot <- fig_data %>%
-    group_by(year, bined_variable) %>%
+    group_by(year, binned_variable) %>%
     summarize(
       counts = n()
     ) %>%
     ggplot(aes(x = year, 
                y = counts, 
-               fill = bined_variable)) +
+               fill = binned_variable)) +
     geom_bar(stat = "identity") +
-    theme(legend.position = "none") +
+    # theme(legend.position = "none") +
     ggtitle(paste("Frequency of", bin_var_name, "Over Time"))
   
   print(distn_plot)
@@ -402,7 +402,7 @@ for (var_name in cat_var_names) {
     )
   
   distn_plot <- fig_data %>%
-    group_by(year, bined_variable) %>%
+    group_by(year, binned_variable) %>%
     summarize(
       counts = n()
     ) %>%
@@ -410,9 +410,9 @@ for (var_name in cat_var_names) {
     mutate(proportions = counts/year_totals) %>%
     ggplot(aes(x = year, 
                y = proportions, 
-               fill = bined_variable)) +
+               fill = binned_variable)) +
     geom_bar(stat = "identity") +
-    theme(legend.position = "none") +
+    # theme(legend.position = "none") +
     ggtitle(paste("Distribution of", bin_var_name, "Over Time"))
   
   print(distn_plot)
