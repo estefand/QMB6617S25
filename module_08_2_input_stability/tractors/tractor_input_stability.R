@@ -319,10 +319,106 @@ for (var_name in cat_var_names) {
   dev.off()
   
   
+  # Calculate the Kullback-Leibler Divergence statistic.
+  # fig_file <- paste(c('Figures/input_stability/', var_name, '_KLD.png'))
+  fig_file <- paste(c('Figures/', var_name, '_KLD.png'), collapse = '')
+  png(fig_file)
+  
+  plot(PSI_KL_Divergence[, 'year'], 
+       PSI_KL_Divergence[, var_name], 
+       main = c(paste('Population Stability Index for', var_name), 
+                "(PSI based on Kullback-Leibler Divergence)"),
+       xlab = 'Year', 
+       ylab = 'Population Stability Index',
+       lwd = 3, 
+       type = 'l',
+       col = 'blue', 
+       ylim = c(0, max(max(PSI_KL_Divergence[, var_name]), num_bins))
+  )
+  abline(h = PSI_KL_Divergence[1, 'var_name'], 
+         lty = 'dashed', lwd = 2)
+  dev.off()
+  
+  
   
 }
 
 
+
+
+
+################################################################################
+# Plot the changes in proportions
+################################################################################
+
+library(tidyverse)
+
+
+
+# Loop on list of categorical variables.
+for (var_name in cat_var_names) {
+  
+  bin_var_name <- sprintf('%s_bins', var_name)
+  level_names <- levels(tractor_prod[, bin_var_name])
+  num_bins <- length(level_names)
+  
+  # 
+  fig_data <- tractor_prod[, c('year', bin_var_name)]
+  colnames(fig_data) <- c('year', "bined_variable")
+  
+  
+  
+  # Plot a stacked bar graph of the counts of observations over time.
+  # fig_file <- paste(c('Figures/input_stability/', var_name, '_bar.png'))
+  fig_file <- paste(c('Figures/', var_name, '_bar.png'), collapse = '')
+  png(fig_file)
+  
+  distn_plot <- fig_data %>%
+    group_by(year, bined_variable) %>%
+    summarize(
+      counts = n()
+    ) %>%
+    ggplot(aes(x = year, 
+               y = counts, 
+               fill = bined_variable)) +
+    geom_bar(stat = "identity") +
+    theme(legend.position = "none") +
+    ggtitle(paste("Frequency of", bin_var_name, "Over Time"))
+  
+  print(distn_plot)
+  dev.off()
+  
+  
+  
+  # Plot a stacked bar graph of the proportions over time.
+  # fig_file <- paste(c('Figures/input_stability/', var_name, '_prop_bar.png'))
+  fig_file <- paste(c('Figures/', var_name, '_prop_bar.png'), collapse = '')
+  png(fig_file)
+  
+  fig_data_years <- fig_data %>%
+    group_by(year) %>%
+    summarize(
+      year_totals = n()
+    )
+  
+  distn_plot <- fig_data %>%
+    group_by(year, bined_variable) %>%
+    summarize(
+      counts = n()
+    ) %>%
+    left_join(fig_data_years) %>% 
+    mutate(proportions = counts/year_totals) %>%
+    ggplot(aes(x = year, 
+               y = proportions, 
+               fill = bined_variable)) +
+    geom_bar(stat = "identity") +
+    theme(legend.position = "none") +
+    ggtitle(paste("Distribution of", bin_var_name, "Over Time"))
+  
+  print(distn_plot)
+  dev.off()
+  
+}
 
 
 
