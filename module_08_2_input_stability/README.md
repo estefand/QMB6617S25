@@ -61,7 +61,7 @@ variables by separating values into bins, like one does when drawing a histogram
 
 The calculation of the statistic is as follows.
 
-<img src="../Images/PearsonGOF.png" width="750"/>
+<img src="Images/PearsonGOF.png" width="750"/>
 
 The values of the inputs are the proportions of observations in each bin, 
 from the null distribution and the comparison distribution. 
@@ -73,9 +73,9 @@ when the model is in use to make a decision.
 The statistic follows a Chi-squared distribution with degrees of freedom equal 
 to the number of bins minus one. 
 
-#### Kullback-Leibler Divergence Criterion
+#### Kullback-Leibler Divergence
 
-The theory for the Kullback-Leibler Divergence Criterion is more involved, 
+The theory for the Kullback-Leibler Divergence is more involved, 
 and the behavior of this statistic is less intuitive, but it is more powerful 
 in that it is more likely to detect certain types of changes in the distribution. 
 It is based on the concept of relative entropy of two phenomena, 
@@ -83,7 +83,7 @@ which could be thought of as the degree of variation.
 The formal definition is as follows.
 
 
-<img src="../Images/KLDformula.png" width="750"/>
+<img src="Images/KLDformula.png" width="750"/>
 
 In this expression, x is the outcome variable, Q represents the probabilities
 under the null distribution and P represents the probabilities
