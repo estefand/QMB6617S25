@@ -226,7 +226,9 @@ validity_stats <- data.frame(year = year_list,
                              avg_purchases = numeric(length(year_list)), 
                              Q1_purchases = numeric(length(year_list)), 
                              Q3_purchases = numeric(length(year_list)),
-                             avg_pred_purchases = numeric(length(year_list)))
+                             avg_pred_purchases = numeric(length(year_list)),
+                             Q1_pred_purchases = numeric(length(year_list)),
+                             Q3_pred_purchases = numeric(length(year_list)))
 
 for (year_num in 1:length(year_list)) {
   
@@ -255,6 +257,8 @@ for (year_num in 1:length(year_list)) {
   
   # Calculate average predicted purchases.
   validity_stats[year_num, 'avg_pred_purchases'] <- mean(purchases_prod_year[, 'pred_purchases'])
+  validity_stats[year_num, 'Q1_pred_purchases'] <- quantile(purchases_prod_year[, 'pred_purchases'], 0.25)
+  validity_stats[year_num, 'Q3_pred_purchases'] <- quantile(purchases_prod_year[, 'pred_purchases'], 0.75)
   
   
 }
@@ -304,8 +308,10 @@ dev.off()
 fig_file <- "Figures/validity/pred_vs_actual_IQR.png"
 png(fig_file)
 
-y_min <- min(validity_stats[, 'Q1_purchases'])
-y_max <- max(validity_stats[, 'Q3_purchases'])
+y_min <- min(c(validity_stats[, 'Q1_purchases'], 
+               validity_stats[, 'Q1_pred_purchases']))
+y_max <- max(validity_stats[, 'Q3_purchases'], 
+             validity_stats[, 'Q3_pred_purchases'])
 plot(validity_stats[, 'year'], 
      validity_stats[, 'avg_pred_purchases'], 
      main = 'Predictions vs Observed Quantiles for Model in Production',
@@ -320,6 +326,19 @@ abline(h = 0)
 # Add the original average prediction.
 abline(h = validity_stats[1, 'avg_pred_purchases'], 
        lty = 'dashed', lwd = 2)
+# Add the upper and lower quartiles of predictions.
+lines(validity_stats[, 'year'], 
+      validity_stats[, 'Q1_pred_purchases'], 
+      lwd = 3, 
+      lty = 'dashed',
+      col = 'blue', 
+)
+lines(validity_stats[, 'year'], 
+      validity_stats[, 'Q3_pred_purchases'], 
+      lwd = 3, 
+      lty = 'dashed',
+      col = 'blue', 
+)
 # Add the original average observed values.
 lines(validity_stats[, 'year'], 
       validity_stats[, 'avg_purchases'], 
@@ -456,7 +475,7 @@ lines(as.numeric(avg_purchases[, 'pred_purchases_bins']),
       lty = 'dotted'
 )
 
-legend("bottom", 
+legend("top", 
        legend = year_list, 
        fill = c("black", color_list), 
        cex = 0.75, 
@@ -475,7 +494,6 @@ dev.off()
 
 param_stability_vars <- c("(Intercept)", 
                           "income", "homeownership", "credit_limit", 
-                          "zip_code_bureau",  
                           "fico", "fico_missing", 
                           "num_late", "past_def", "num_bankruptcy", 
                           "avg_income", "density")
@@ -487,7 +505,6 @@ param_stability_fmla <-
 # Adjust for categorical homeownership.
 param_stability_vars <- c("(Intercept)", 
                           "income", "homeownershipRent", "credit_limit", 
-                          "zip_code_bureau",  
                           "fico", "fico_missing", 
                           "num_late", "past_def", "num_bankruptcy", 
                           "avg_income", "density")
@@ -615,7 +632,6 @@ for (param_num in 1:length(param_stability_vars)) {
 
 param_stability_vars <- c("(Intercept)", 
                           "income", "homeownership", "credit_limit", 
-                          "zip_code_bureau",  
                           "fico", "fico_missing", 
                           "num_late", "past_def", "num_bankruptcy", 
                           "avg_income", "density")
@@ -628,7 +644,6 @@ excess_stability_fmla <-
 # Adjust for categorical homeownership.
 param_stability_vars <- c("(Intercept)", 
                           "income", "homeownershipRent", "credit_limit", 
-                          "zip_code_bureau",  
                           "fico", "fico_missing", 
                           "num_late", "past_def", "num_bankruptcy", 
                           "avg_income", "density")
@@ -998,7 +1013,7 @@ for (var_name in cat_var_names) {
                y = counts, 
                fill = binned_variable)) +
     geom_bar(stat = "identity") +
-    theme(legend.position = "none") +
+    # theme(legend.position = "none") +
     ggtitle(paste("Frequency of", bin_var_name, "Over Time"))
   
   print(distn_plot)
@@ -1028,7 +1043,7 @@ for (var_name in cat_var_names) {
                y = proportions, 
                fill = binned_variable)) +
     geom_bar(stat = "identity") +
-    theme(legend.position = "none") +
+    # theme(legend.position = "none") +
     ggtitle(paste("Distribution of", bin_var_name, "Over Time"))
   
   print(distn_plot)
