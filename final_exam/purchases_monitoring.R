@@ -42,6 +42,8 @@ rm(list=ls(all=TRUE))
 
 # setwd("~/GitHub/QMB6617S25_LM/final_exam")
 
+setwd("C:/Users/estef/OneDrive/Desktop/2025 Summer Semester/Business Analytics for Managers/QMB6617S25/final_exam")
+
 
 # Now, RStudio should know where your files are.
 
